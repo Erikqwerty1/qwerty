@@ -2,4 +2,4 @@
 
 Задание 1
 
-![lab01](./images/lab01/01_greeting.png)
+![lab01](./images/01_greeting.png)
