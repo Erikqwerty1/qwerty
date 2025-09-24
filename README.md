@@ -2,7 +2,9 @@
             
             #Задание 1
 name = input("Имя: ")
+
 age = int(input("Возраст: "))
+
 print(f"Привет, {name}! Через год тебе будет {age + 1}.")
 
 ![lab01](./src/images1/lab01/01_greeting.png)
