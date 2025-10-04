@@ -76,4 +76,4 @@
 5.    b = max(nums)
 
 6.    return (a, b)
-![lab02](./src/images1/lab01/01.png)
+![lab02](./src/images1/lab02/01.png)
