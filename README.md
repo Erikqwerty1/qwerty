@@ -76,4 +76,14 @@
 5.    b = max(nums)
 
 6.    return (a, b)
-![lab02](./src/images1/lab02/01.png)
+
+![lab02](./src/images/lab02/02.png)
+
+Задание 2
+1. def unique_sorted(nums):
+
+2.   nums = sorted(set(nums))
+
+3.   return nums
+
+![lab02](./src/images/lab02/02.png)
