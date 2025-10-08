@@ -8,7 +8,7 @@
 
 3. print(f"Привет, {name}! Через год тебе будет {age + 1}.")
 ```
-![lab01](./src/images1/lab01/01_greeting.png)
+![lab01](./src/images/lab01/01_greeting.png)
 
 Задание 2
 ```python
@@ -22,7 +22,7 @@
 
 5. print(f"sum={sum:.2f}",";",f"avg={avg:.2f}")
 ```
-![lab01](./src/images1/lab01/02_sum_avg.png)
+![lab01](./src/images/lab01/02_sum_avg.png)
             
 Задание 3
 ```python
@@ -44,7 +44,7 @@
 
 9. print(f"Итого к оплате:{total:.2f} ₽")
 ```
-![lab01](./src/images1/lab01/03_discount_vat.png)
+![lab01](./src/images/lab01/03_discount_vat.png)
 
 Задание 4
 ```python
@@ -56,7 +56,7 @@
 
 4. print(f"{h}:{mm:02d}")
 ```
-![lab01](./src/images1/lab01/04_minutes_to_hhmm.png)
+![lab01](./src/images/lab01/04_minutes_to_hhmm.png)
 
 Задание 5
 ```python
@@ -66,7 +66,7 @@
 
 3. print(len(fio[0]+fio[1]+fio[2])+2)
 ```
-![lab01](./src/images1/lab01/05_initials_and_len.png)
+![lab01](./src/images/lab01/05_initials_and_len.png)
 
 ## Лабараторная работа 2
 Задание 1
@@ -83,7 +83,7 @@
 
 6.    return (a, b)
 ```
-
+![LABA](./src/images/lab02/01.png)
 
 Задание 2
 ```python
@@ -93,7 +93,7 @@
 
 3.   return nums
 ```
-
+![LABA](./src/images/lab02/02.png)
 
 Задание 3
 ```python
@@ -115,6 +115,7 @@
 
 9.    return otvet
 ```
+![LABA](./src/images/lab02/03.png)
 
 Задание 4
 ```python
@@ -146,6 +147,7 @@
 
 14.    return otvet
 ```
+![LABA](./src/images/lab02/04.png)
 
 Задание 5
 ```python
@@ -171,6 +173,7 @@
 
 11.    return spisok
 ```
+![LABA](./src/images/lab02/05.png)
 
 Задание 6
 ```python
@@ -194,6 +197,8 @@
 
 10.    return spisok
 ```
+![LABA](./src/images/lab02/06.png)
+
 Задание 7
 ```python
 1.def format_record(poveselee):
@@ -226,3 +231,4 @@
 
 15.    return sper
 ```
+![LABA](./src/images/lab02/07.png)
