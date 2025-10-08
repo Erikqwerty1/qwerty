@@ -89,3 +89,10 @@
 3.   return nums
 
 ![lab01](./src/images/lab02/02.png)
+
+
+```python
+def hello_world():
+    print("Hello, World!")
+    return True
+```
