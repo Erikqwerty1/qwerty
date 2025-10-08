@@ -1,15 +1,17 @@
 ## Лабораторная работа 1
             
 Задание 1
+```python
 1. name = input("Имя: ")
 
 2. age = int(input("Возраст: "))
 
 3. print(f"Привет, {name}! Через год тебе будет {age + 1}.")
-
+```
 ![lab01](./src/images1/lab01/01_greeting.png)
 
 Задание 2
+```python
 1. a = float(input(("Введите первое число=")))
 
 2. b = float(input(("Введите первое число=")))
@@ -19,10 +21,11 @@
 4. avg = sum/2
 
 5. print(f"sum={sum:.2f}",";",f"avg={avg:.2f}")
-
+```
 ![lab01](./src/images1/lab01/02_sum_avg.png)
             
 Задание 3
+```python
 1. price = float(input("Введите цену="))
 
 2. discount= float(input("Скидка="))
@@ -40,10 +43,11 @@
 8. print(f"НДС:{vat_amount:.2f} ₽")
 
 9. print(f"Итого к оплате:{total:.2f} ₽")
-
+```
 ![lab01](./src/images1/lab01/03_discount_vat.png)
 
 Задание 4
+```python
 1. m = int(input("Введите количество минут="))
 
 2. h = m//60
@@ -51,16 +55,17 @@
 3. mm = m % 60
 
 4. print(f"{h}:{mm:02d}")
-
+```
 ![lab01](./src/images1/lab01/04_minutes_to_hhmm.png)
 
 Задание 5
+```python
 1. fio = input("Введите ФИО ").split()
 
 2. print("Инициалы=",fio[0][0],fio[1][0],fio[2][0],sep='')
 
 3. print(len(fio[0]+fio[1]+fio[2])+2)
-
+```
 ![lab01](./src/images1/lab01/05_initials_and_len.png)
 
 ## Лабараторная работа 2
@@ -82,17 +87,12 @@
 ![lab01](./src/images/lab02/02.png)
 
 Задание 2
+```python
 1. def unique_sorted(nums):
 
 2.   nums = sorted(set(nums))
 
 3.   return nums
-
+```
 ![lab01](./src/images/lab02/02.png)
 
-
-```python
-def hello_world():
-    print("Hello, World!")
-    return True
-```
