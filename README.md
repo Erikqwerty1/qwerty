@@ -65,6 +65,7 @@
 
 ## Лабараторная работа 2
 Задание 1
+```python
 1. def min_max(nums):
 
 2.   if len(nums) == 0:
@@ -76,8 +77,9 @@
 5.    b = max(nums)
 
 6.    return (a, b)
+```
 
-![lab02](./src/images/lab02/02.png)
+![lab01](./src/images/lab02/02.png)
 
 Задание 2
 1. def unique_sorted(nums):
@@ -86,4 +88,4 @@
 
 3.   return nums
 
-![lab02](./src/images/lab02/02.png)
+![lab01](./src/images/lab02/02.png)
