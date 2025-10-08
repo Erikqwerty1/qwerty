@@ -4,9 +4,9 @@ def col_sums(mat):
         if len(element)!=kol_simv:
             raise ValueError
     spisok=[0] * kol_simv
-    for strochiche in mat:
-        for stolb in range(len(strochiche)):
-            spisok[stolb]=spisok[stolb]+strochiche[stolb]
+    for stroch in mat:
+        for stolb in range(len(stroch)):
+            spisok[stolb]=spisok[stolb]+stroch[stolb]
     return spisok
 mat = [[1, 2, 3], [4, 5, 6]]
 print(col_sums(mat))

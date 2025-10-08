@@ -3,12 +3,12 @@ def row_sums(mat):
     for element in mat:
         if len(element)!=kol_simv:
             raise ValueError
-    spisochek = []
+    spisok = []
     for element in mat:
         summa=0
         summa = sum(element)
-        spisochek.append(summa)
-    return spisochek
+        spisok.append(summa)
+    return spisok
 mat = [[1, 2, 3], [4, 5, 6]]
 print(row_sums(mat))
 mat = [[-1, 1], [10, -10]]

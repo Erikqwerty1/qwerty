@@ -84,7 +84,6 @@
 6.    return (a, b)
 ```
 
-![lab01](./src/images/lab02/02.png)
 
 Задание 2
 ```python
@@ -94,5 +93,136 @@
 
 3.   return nums
 ```
-![lab01](./src/images/lab02/02.png)
 
+
+Задание 3
+```python
+1. def flatten(mat):
+
+2.    otvet = []
+
+3.    for element in mat:
+
+4.        if type(element)==tuple or type(element)==list:
+
+5.            for podelement in element:
+
+6.                otvet.append(podelement)
+
+7.        else:
+
+8.            raise TypeError
+
+9.    return otvet
+```
+
+Задание 4
+```python
+1.def transpose(mat):
+
+2.    otvet = []
+
+3.    if len(mat) == 0:
+
+4.        return []
+
+5.    kol_simv = len(mat[0])
+
+6.    for element in mat:
+
+7.        if len(element)!=kol_simv:
+
+8.            raise ValueError
+
+9.    for stolb in range(kol_simv):
+
+10.      new_stroch = []
+
+11.        for strochka in range(len(mat)):
+
+12.            new_stroch.append(mat[strochka][stolb])
+
+13.        otvet.append(new_stroch)
+
+14.    return otvet
+```
+
+Задание 5
+```python
+1.def row_sums(mat):
+
+2.    kol_simv = len(mat[0])
+
+3.    for element in mat:
+
+4.        if len(element)!=kol_simv:
+
+5.            raise ValueError
+
+6.    spisok = []
+
+7.    for element in mat:
+
+8.        summa=0
+
+9.        summa = sum(element)
+
+10.        spisok.append(summa)
+
+11.    return spisok
+```
+
+Задание 6
+```python
+1.def col_sums(mat):
+
+2.    kol_simv = len(mat[0])
+
+3.    for element in mat:
+
+4.        if len(element)!=kol_simv:
+
+5.            raise ValueError
+
+6.    spisok=[0] * kol_simv
+
+7.    for stroch in mat:
+
+8.        for stolb in range(len(stroch)):
+
+9.            spisok[stolb]=spisok[stolb]+stroch[stolb]
+
+10.    return spisok
+```
+Задание 7
+```python
+1.def format_record(poveselee):
+
+2.    sper = ''
+
+3.    if type(poveselee) != tuple:
+
+4.        raise TypeError
+
+5.    if type(poveselee[0])==str and type(poveselee[1])==str and type(poveselee[2])==float and len(poveselee[0].split()) >= 2:
+
+6.        if len(poveselee[0].split()) == 2:
+
+7.            fio = poveselee[0].split()
+
+8.            fio_new = f'{fio[0].capitalize()} {fio[1][0].capitalize()}.'
+
+9.        if len(poveselee[0].split()) == 3:
+
+10.            fio = poveselee[0].split()
+
+11.            fio_new = f'{fio[0].capitalize()} {fio[1][0].capitalize()}.{fio[2][0].capitalize()}.'
+
+12.        sper = f'{fio_new}, гр. {poveselee[1]}, GPA {poveselee[2]:.2f}'
+
+13.    else:
+
+14.        raise TypeError
+
+15.    return sper
+```

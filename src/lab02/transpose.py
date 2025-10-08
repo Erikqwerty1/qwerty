@@ -6,11 +6,11 @@ def transpose(mat):
     for element in mat:
         if len(element)!=kol_simv:
             raise ValueError
-    for stolbishe in range(kol_simv):
-        new_strochiche = []
-        for strochiche in range(len(mat)):
-            new_strochiche.append(mat[strochiche][stolbishe])
-        otvet.append(new_strochiche)
+    for stolb in range(kol_simv):
+        new_stroch = []
+        for strochka in range(len(mat)):
+            new_stroch.append(mat[strochka][stolb])
+        otvet.append(new_stroch)
     return otvet
 mat = [[1, 2, 3]]
 print(transpose(mat))
