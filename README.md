@@ -232,3 +232,40 @@
 15.    return sper
 ```
 ![LABA](./src/images/lab02/07.png)
+
+## Лабараторная работа 3
+Задание 1
+```python
+import re
+def normalize(text, *, casefold = True, yo2e = True):
+    text = re.sub(r"[\t\r\n\f\v]", " ", text)
+    if yo2e:
+        text = text.replace("ё", "е").replace("Ё", "Е")
+    if casefold:
+        text = text.casefold()
+    text = re.sub(r" +", " ", text)
+    text = text.strip()
+    return text
+
+def tokenize(text):
+    pattern = r"\b[\w]+(?:-[\w]+)*\b"
+    return re.findall(pattern, text)
+
+def count_freq(tokens):
+    freq = {}
+    for token in tokens:
+        if token in freq:
+            freq[token] = freq[token] + 1
+        else:
+            freq[token] = 1
+    return freq
+def top_n(freq, n = 2):
+    spisok = []
+    for word in freq:
+        spisok.append((freq[word], word))
+    spisok.sort(reverse=True)
+    sortelement = []
+    for count, word in spisok:
+        sortelement.append((word, count))   
+    return sortelement[:n]
+ ```
