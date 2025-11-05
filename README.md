@@ -378,6 +378,7 @@ except UnicodeDecodeError:
 ```
 ![LABA](./src/images/lab04/01.png)
 ![LABA](./src/images/lab04/02.png)
+
 Задание 2
 ```python
 import csv
