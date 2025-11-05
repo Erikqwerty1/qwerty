@@ -1,6 +1,5 @@
 import csv
 import re
-import os
 def chtenie(path, encoding="utf-8"):
     with open(path, "r", encoding=encoding) as file:
         return file.read()
@@ -60,7 +59,7 @@ try:
     # Записываю отчет в CSV
     zapisat(rows, "data/report.csv", header=("word", "count"))
     
-    # Вывожу статистику в консоль (как в задании)
+    # Вывожу статистику в консоль
     print(f"Всего слов: {len(words)}")
     print(f"Уникальных слов: {len(freq_dict)}")
     print("Топ-5:")
