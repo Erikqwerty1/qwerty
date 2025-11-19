@@ -101,5 +101,5 @@ if __name__ == "__main__":
     xlsx_path = "lab05/data/out/out_people.xlsx"
 
     csv_to_xlsx(csv_path, xlsx_path)
-    ```
+```
 ![LABA](./images/03.png)
