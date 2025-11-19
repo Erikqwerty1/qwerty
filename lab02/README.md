@@ -8,7 +8,7 @@ a = min(nums)
 b = max(nums)
   return (a, b)
 ```
-![LABA](./lab02/images/01.png)
+![LAB](./images/01.png)
 
 Задание 2
 ```python
@@ -16,7 +16,7 @@ def unique_sorted(nums):
   nums = sorted(set(nums))
   return nums
 ```
-![LABA](./lab02/images/02.png)
+![LABA](./images/02.png)
 
 Задание 3
 ```python
@@ -31,7 +31,7 @@ def flatten(mat):
 
   return otvet
 ```
-![LABA](./lab02/images/03.png)
+![LABA](./images/03.png)
 
 Задание 4
 ```python
@@ -50,7 +50,7 @@ def transpose(mat):
       otvet.append(new_stroch)
   return otvet
 ```
-![LABA](./lab02/images/04.png)
+![LABA](./images/04.png)
 
 Задание 5
 ```python
@@ -66,7 +66,7 @@ def row_sums(mat):
     spisok.append(summa)
   return spisok
 ```
-![LABA](./lab02/images/05.png)
+![LABA](./images/05.png)
 
 Задание 6
 ```python
@@ -81,7 +81,7 @@ def col_sums(mat):
       spisok[stolb]=spisok[stolb]+stroch[stolb]
   return spisok
 ```
-![LABA](./lab02/images/06.png)
+![LABA](./images/06.png)
 
 Задание 7
 ```python
@@ -101,4 +101,4 @@ def format_record(poveselee):
     raise TypeError
   return sper
 ```
-![LABA](./lab02/images/07.png)
+![LABA](./images/07.png)
