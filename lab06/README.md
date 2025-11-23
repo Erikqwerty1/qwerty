@@ -117,9 +117,11 @@ if __name__ == "__main__":
 ![LABA](./images/01.png)
 
 Результат работы команды cat --input INPUT -n
+
 ![LABA](./images/06.png)
 
 Результат работы команды stats --input INPUT --top 5
+
 ![LABA](./images/02.png)
 
 Задание 2
@@ -277,4 +279,10 @@ if __name__ == "__main__":
 
 Результат команды csv2xlsx
 
+![LABA](./images/08.png)
+
 ![LABA](./images/05.png)
+
+Результат команды --help
+
+![LABA](./images/07.png)
