@@ -113,9 +113,12 @@ if __name__ == "__main__":
     main()
 ```
 Входной файл
-![LABA](./images/06.png)
-Результат работы команды cat --input INPUT -n
+
 ![LABA](./images/01.png)
+
+Результат работы команды cat --input INPUT -n
+![LABA](./images/06.png)
+
 Результат работы команды stats --input INPUT --top 5
 ![LABA](./images/02.png)
 
@@ -264,6 +267,14 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+Результат комнады json2csv
+
 ![LABA](./images/03.png)
+
+Результат команды csv2json
+
 ![LABA](./images/04.png)
+
+Результат команды csv2xlsx
+
 ![LABA](./images/05.png)
