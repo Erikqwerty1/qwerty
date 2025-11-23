@@ -114,11 +114,11 @@ if __name__ == "__main__":
 ```
 Входной файл
 
-![LABA](./images/01.png)
+![LABA](./images/06.png)
 
 Результат работы команды cat --input INPUT -n
 
-![LABA](./images/06.png)
+![LABA](./images/01.png)
 
 Результат работы команды stats --input INPUT --top 5
 
