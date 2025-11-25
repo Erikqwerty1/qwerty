@@ -26,6 +26,10 @@ Labs/
 │    ├── src/
 │    └── README.md
 ├── lab06/
+│    ├── tests/
+│    ├── images/
+│    └── README.md
+├── lab07/
 ...
 ```
 
