@@ -1,5 +1,7 @@
 import re
-def normalize(text, *, casefold = True, yo2e = True):
+
+
+def normalize(text, *, casefold=True, yo2e=True):
     text = re.sub(r"[\t\r\n\f\v]", " ", text)
     if yo2e:
         text = text.replace("ё", "е").replace("Ё", "Е")
@@ -8,7 +10,9 @@ def normalize(text, *, casefold = True, yo2e = True):
     text = re.sub(r" +", " ", text)
     text = text.strip()
     return text
-print('A1')
+
+
+print("A1")
 print("ТЕСТ ДЛЯ NORMALIZE:")
 text = "ПрИвЕт\nМИр\t"
 text = normalize(text)
@@ -23,10 +27,13 @@ text = "  двойные   пробелы  "
 text = normalize(text)
 print(text)
 
+
 def tokenize(text):
     pattern = r"\b[\w]+(?:-[\w]+)*\b"
     return re.findall(pattern, text)
-print('A2')
+
+
+print("A2")
 print("ТЕСТ ДЛЯ TOKENIZE:")
 text = "привет мир"
 text = tokenize(text)
@@ -44,6 +51,7 @@ text = "emoji 😀 не слово"
 text = tokenize(text)
 print(text)
 
+
 def count_freq(tokens):
     freq = {}
     for token in tokens:
@@ -52,24 +60,28 @@ def count_freq(tokens):
         else:
             freq[token] = 1
     return freq
-def top_n(freq, n = 2):
+
+
+def top_n(freq, n=2):
     spisok = []
     for word in freq:
         spisok.append((freq[word], word))
     spisok.sort(reverse=True)
     sortelement = []
     for count, word in spisok:
-        sortelement.append((word, count))   
+        sortelement.append((word, count))
     return sortelement[:n]
-print('A3')
+
+
+print("A3")
 print("ТЕСТ ДЛЯ COUNT_FREQ + TOP_N:")
 tokens = ["a", "b", "a", "c", "b", "a"]
-otvet=count_freq(tokens)
+otvet = count_freq(tokens)
 print(otvet)
-freq=top_n(otvet)
+freq = top_n(otvet)
 print(freq)
 tokens = ["bb", "aa", "bb", "aa", "cc"]
-otvet=count_freq(tokens)
+otvet = count_freq(tokens)
 print(otvet)
-freq=top_n(otvet)
+freq = top_n(otvet)
 print(freq)

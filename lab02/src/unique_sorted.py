@@ -1,6 +1,8 @@
 def unique_sorted(nums):
     nums = sorted(set(nums))
     return nums
+
+
 nums = [3, 1, 2, 1, 3]
 print(unique_sorted(nums))
 nums = []

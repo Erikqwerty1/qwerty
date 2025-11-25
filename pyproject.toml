@@ -1,0 +1,46 @@
+[project]
+name = "labs"
+version = "0.1.0"
+description = "Проект с лабораторными работами по програмированию и алгоритмизации"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.11.0",
+    "isort>=7.0.0",
+    "pre-commit>=4.4.0",
+    "pytest>=9.0.1",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py313"]
+extend-exclude = '''
+(
+  ^\.(venv|env)/|
+  ^data/|
+  ^images/|
+  ^__pacache__/|
+  ^.pytest_cache/
+)
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "--maxfail=3 --disable-warnings -ra"
+testpaths = [
+    "src",
+]
+
+[tool.uv.sources]
+"labs" = { path = "src" }

@@ -1,11 +1,13 @@
 from pathlib import Path
 import csv
 
+
 def chtenie(path, encoding="utf-8"):
     file_path = Path(path)
     with open(file_path, "r", encoding=encoding) as file:
         stroka = file.read()
         return stroka
+
 
 def zapis(rows, path, header=None):
     """
@@ -44,6 +46,7 @@ def create_folders(path):
     file_path = Path(path)
     folder_path = file_path.parent
     folder_path.mkdir(parents=True, exist_ok=True)
+
 
 # Пробую прочитать и создать файл
 try:

@@ -1,6 +1,8 @@
 import sys
 import re
-def normalize(text, *, casefold = True, yo2e = True):
+
+
+def normalize(text, *, casefold=True, yo2e=True):
     text = re.sub(r"[\t\r\n\f\v]", " ", text)
     if yo2e:
         text = text.replace("ё", "е").replace("Ё", "Е")
@@ -10,9 +12,11 @@ def normalize(text, *, casefold = True, yo2e = True):
     text = text.strip()
     return text
 
+
 def tokenize(text):
     pattern = r"\b[\w]+(?:-[\w]+)*\b"
     return re.findall(pattern, text)
+
 
 def count_freq(tokens):
     freq = {}
@@ -22,15 +26,18 @@ def count_freq(tokens):
         else:
             freq[token] = 1
     return freq
-def top_n(freq, n = 2):
+
+
+def top_n(freq, n=2):
     spisok = []
     for word in freq:
         spisok.append((freq[word], word))
     spisok.sort(reverse=True)
     sortelement = []
     for count, word in spisok:
-        sortelement.append((word, count))   
+        sortelement.append((word, count))
     return sortelement[:n]
+
 
 def stdin1():
     text = sys.stdin.read()
@@ -49,7 +56,8 @@ def stdin1():
         else:
             kolvo[word] = 1
     for word, count in top_words:
-        print(word,":", count,sep="")
+        print(word, ":", count, sep="")
+
 
 if __name__ == "__main__":
     stdin1()

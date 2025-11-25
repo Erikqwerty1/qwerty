@@ -4,8 +4,10 @@ def min_max(nums):
     a = min(nums)
     b = max(nums)
     return (a, b)
+
+
 nums = [3, -1, 5, 5, 0]
-print(min_max(nums)) 
+print(min_max(nums))
 nums = [42]
 print(min_max(nums))
 nums = [-5, -2, -9]
