@@ -16,25 +16,24 @@ Labs/
 │   ├── src/
 │   └── README.md
 ├──  lab04/
-│    ├── data/
-│    ├── images/
-│    ├── src
-│    └── README.md
+│   ├── data/
+│   ├── images/
+│   ├── src
+    └── README.md
 ├──  lab05/
-│    ├── data/
-│    ├── images/
-│    ├── src/
-│    └── README.md
+│   ├── data/
+│   ├── images/
+│   ├── src/
+│   └── README.md
 ├── lab06/
-│    ├── data/
-│    ├── images/
-│    ├── src/
-│    └── README.md
-│
+│   ├── data/
+│   ├── images/
+│   ├── src/
+│   └── README.md
 ├── lab07/
-│    ├── images/
-│    ├── tests/
-│    └── README.md
+│   ├── images/
+│   ├── tests/
+│   └── README.md
 ...
 ```
 
