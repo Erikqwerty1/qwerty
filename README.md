@@ -34,6 +34,11 @@ Labs/
 │   ├── images/
 │   ├── tests/
 │   └── README.md
+├── lab08/
+│   ├── data/
+│   ├── images/
+│   ├── src/
+│   └── README.md
 ...
 ```
 
@@ -44,3 +49,4 @@ Labs/
 5. [Лабораторная работа 5](./lab05/README.md)
 6. [Лабораторная работа 6](./lab06/README.md)
 7. [Лабораторная работа 7](./lab07/README.md)
+8. [Лабораторная работа 7](./lab08/README.md)
