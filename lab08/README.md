@@ -72,7 +72,7 @@ class Student:
 ```
 
 Задание 2
-```
+```python
 import json
 from pathlib import Path
 
