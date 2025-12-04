@@ -110,6 +110,4 @@ def students_from_json(path: str | Path) -> list[Student]:
 
 ![LABA](./images/01.png)
 
-![LABA](./images/02.png)
-
 ![LABA](./images/03.png)
