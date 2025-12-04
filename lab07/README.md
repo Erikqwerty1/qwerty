@@ -107,7 +107,7 @@ def test_top_n(dictionary, expected):
 ![LABA](./images/01.png)
 
 Задание 2
-```
+```py
 import csv
 import json
 import pytest
