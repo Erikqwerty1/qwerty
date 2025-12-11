@@ -52,11 +52,6 @@ class Student:
         if not isinstance(data, dict):
             raise ValueError("Данные должны быть dict")
 
-        required = {"fio", "birthdate", "group", "gpa"}
-        missing = required - data.keys()
-        if missing:
-            raise ValueError(f"Лишние данные: {missing}")
-
         return cls(
             fio=data["fio"],
             birthdate=data["birthdate"],

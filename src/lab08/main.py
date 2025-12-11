@@ -26,7 +26,7 @@ def main():
         ),
     ]
 
-    json_path = Path("lab08/data/students.json")
+    json_path = Path("src/lab08/data/students.json")
 
     students_to_json(students, json_path)
     print(f"→ JSON сохранён в {json_path}")
