@@ -14,8 +14,8 @@ for s in students:
     print(f"  {s.fio} | Группа: {s.group} | GPA: {s.gpa}")
 print("-" * 60)
 
-print("Поиск студентов с 'анна':")
-found = group.find("анна")
+print("Поиск студентов с 'Анна':")
+found = group.find("Анна")
 for s in found:
     print(f"  {s.fio} — {s.gpa}")
 print("-" * 60)
