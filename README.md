@@ -1,43 +1,53 @@
 # Лабораторные работы
 
 ```
-Labs/
+src/
 ├── README.md
 ├── lab01/
-│   ├── images/
-│   ├── src/
-│   └── README.md
+│    └──src/
+|       ├── images/
+│       ├── src/
+│       └── README.md
 ├── lab02/
-│   ├── images/
-│   ├── src/
-│   └── README.md
-├──  lab03/
-│   ├── images/
-│   ├── src/
-│   └── README.md
-├──  lab04/
-│   ├── data/
-│   ├── images/
-│   ├── src
-    └── README.md
-├──  lab05/
-│   ├── data/
-│   ├── images/
-│   ├── src/
-│   └── README.md
+│    └──src/
+|       ├── images/
+│       ├── src/
+│       └── README.md
+├── lab03/
+│    └──src/
+|       ├── images/
+│       ├── src/
+│       └── README.md
+├── lab04/
+│    └──src/
+|       ├── images/
+|       ├── data/
+│       ├── src/
+│       └── README.md
+├── lab05/
+│    └──src/
+|       ├── images/
+|       ├── data/
+│       ├── src/
+│       └── README.md
 ├── lab06/
-│   ├── data/
-│   ├── images/
-│   ├── src/
-│   └── README.md
+│    └──src/
+|       ├── images/
+|       ├── data/
+│       ├── src/
+│       └── README.md
 ├── lab07/
-│   ├── images/
-│   ├── tests/
-│   └── README.md
+│    └──src/
+|       ├── images/
+│       ├── tests/
+│       └── README.md
 ├── lab08/
 │   ├── data/
 │   ├── images/
-│   ├── src/
+│   └── README.md
+├── lab09/
+│   ├── data/
+│   ├── images/
 │   └── README.md
 ...
 ```
@@ -50,3 +60,4 @@ Labs/
 6. [Лабораторная работа 6](./lab06/README.md)
 7. [Лабораторная работа 7](./lab07/README.md)
 8. [Лабораторная работа 8](./lab08/README.md)
+9. [Лабораторная работа 9](./lab09/README.md)
