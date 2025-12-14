@@ -49,7 +49,7 @@ src/
 │   ├── data/
 │   ├── images/
 │   └── README.md
-├── lab10/
+└── lab10/
     ├── images/
     └── README.md
 ...
