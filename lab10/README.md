@@ -339,6 +339,7 @@ class SinglyLinkedList:
         return f"SinglyLinkedList({values})"
 ```
 Код теста:
+```py
 from structures import Stack, Queue
 from linked_list import SinglyLinkedList
 
