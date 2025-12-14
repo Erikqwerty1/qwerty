@@ -49,6 +49,9 @@ src/
 │   ├── data/
 │   ├── images/
 │   └── README.md
+├── lab10/
+    ├── images/
+    └── README.md
 ...
 ```
 
@@ -61,3 +64,4 @@ src/
 7. [Лабораторная работа 7](src/lab07/README.md)
 8. [Лабораторная работа 8](src/lab08/README.md)
 9. [Лабораторная работа 9](src/lab09/README.md)
+10. [Лабораторная работа 10](src/lab10/README.md)
