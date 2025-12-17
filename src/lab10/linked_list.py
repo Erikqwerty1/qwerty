@@ -56,8 +56,6 @@ class SinglyLinkedList:
         # Вставляем новый узел
         new_node = Node(value, next=current.next)
         current.next = new_node
-
-        # ИСПРАВЛЕНО: увеличиваем размер
         self._size += 1
 
     def __iter__(self):
